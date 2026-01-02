@@ -1,0 +1,85 @@
+.main{
+    display: flex;
+}
+
+.main img{
+    justify-content: center;
+    margin: 120px;
+    
+}
+
+.insta{
+    justify-content: center;
+    margin: 200px 0px  ;
+}
+
+.login-button{
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(140, 140, 251);
+    color: white;
+}
+
+.name{
+    height: 40px;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgb(229, 233, 238);
+}
+
+.password{
+    height: 40px;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgb(229, 233, 238);
+}
+
+.forgot{
+    border: 0;
+    background-color: white;
+    font-size:larger;
+    margin: 20px;
+}
+
+.heading{
+    font-size: large;
+}
+
+
+.heading .signup{
+    background-color: white;
+    border: 0;
+}
+
+.box{
+    display: flex;
+}
+
+.box .left{
+    margin: 25px;
+}
+
+.box .right{
+    margin: 25px;
+}
+
+.facebook{
+    display: flex;
+    margin-left: 80px;
+}
+
+.forgot{
+    display: flex;
+    margin-left: 60px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.span{
+    color: blue;
+}
