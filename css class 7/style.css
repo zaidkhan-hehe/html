@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(94, 93, 93);
+}
+
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+table:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+table{
+    border: 3px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    width: 35vh;
+    border-top-color: aqua;
+    border-block-end-color: purple;
+}
+
+
+
+
+th{
+    
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+
+.login{
+    margin: 10px;
+    border-radius: 20px;
+    width: 95%;
+    height: 50px;
+    background-color: aqua;
+    box-shadow: 5px;
+}
+
+input{
+    border-radius: 20px;
+    height: 30px;
+    width: 95%;
+    background-color: gray;
+    border: none;
+
+}
+
+input:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+
+.forgot{
+    border: none;
+    background-color: rgb(94, 93, 93);
+    font-size: medium;
+}
+
+.forgot:hover{
+    color: white;
+    background-color: rgb(94, 93, 93);
+    transition: 0.5s;
+}
+
+.dont:hover{
+    color: white;
+    background-color: rgb(94, 93, 93);
+    transition: 0.5s;
+}
+
+.login:hover{
+    background-color: gold;
+    transition: 0.5s;
+}
+
+span{
+    color: purple;
+    font-size: medium;
+}
+.dont{
+    border: none;
+    background-color: rgb(94, 93, 93);
+    font-size: medium;
+}
